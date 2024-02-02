@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    text-transform: capitalize;
 }
 
 body {
@@ -550,6 +551,8 @@ header {
 #page-3 {
     width: 100%;
     height: 100vh;
+    padding-bottom: 20vh;
+    background-color: white;
 }
 
 .page-3-content-1 {
@@ -558,7 +561,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
 }
 
 .page-3-content-1 h2 {
@@ -794,4 +796,132 @@ header {
         font-weight: 900; 
         margin-top: 0.5vh;
     }
+}
+#page-4{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to bottom left, red, orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-page-4{
+    width: 80%;
+    height: 80%;
+}
+.div-1-page-4{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid;
+}
+.div-1-titre{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.div-1-titre h2{
+    font-size: 1.2vw;
+    padding-bottom: 2vh;
+}
+.div-1-img{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1-img img{
+    width: 38vw;
+    z-index: 999;
+    margin-top: -28vh;
+    rotate: -4.5deg;
+    margin-left: -5vw;
+}
+.div-1-2-titre{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.div-1-2-titre h2{
+    margin-bottom: 2vh;
+}
+
+.div-1-2-titre h1{
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+    }
+}
+.div-2-page-4{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.div-2-titre{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.content-page-4-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-page-4-1 img{
+    width: 10vw;
+}
+.content-page-4-1 h1{
+    width: 5vw;
+    margin-right: auto;
+    font-size: 1.3vw;
+}
+.div-1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1 p{
+    width: 25vw;
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+.div-2-2-titre{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-2-2-titre h1{
+    width: 15vw;
+    height: 8vh;
+    font-size: 1.3vw;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+.div-2-2-titre span{
+    margin-right: 0.5vw;
 }
