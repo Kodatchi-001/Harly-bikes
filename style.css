@@ -230,7 +230,8 @@ header {
     justify-content: center;
     align-items: center;
 }
-.test span{
+
+.test span {
     padding-right: 0.3vw;
 }
 
@@ -462,28 +463,32 @@ header {
     justify-content: center;
     align-items: center;
 }
-#img-1{
+
+#img-1 {
     width: 20vw;
     opacity: 0;
 }
-#img-2{
+
+#img-2 {
     width: 21vw;
-    z-index: 0;
-    animation: rewida 1s linear infinite;
+    animation: rewida 1.4s linear infinite;
 }
-#img-3{
-    width: 20vw;
-    animation: rewida 1s linear infinite;
+
+#img-3 {
+    width: 22vw;
+    animation: rewida 1.4s linear infinite;
 }
 
 @keyframes rewida {
     from {
-      rotate:0deg;
+        rotate: 0deg;
     }
+
     to {
-      rotate:360deg;
+        rotate: 360deg;
     }
-  }
+}
+
 .page-2-content-2-1 {
     width: 30vw;
 }
@@ -517,7 +522,8 @@ header {
     align-items: center;
     gap: 20px;
 }
-.icon span{
+
+.icon span {
     padding-right: 0.8vw;
 }
 
@@ -538,5 +544,254 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 1.4vw;
-    border: 3px solid ;
+    border: 3px solid;
+}
+
+#page-3 {
+    width: 100%;
+    height: 100vh;
+}
+
+.page-3-content-1 {
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.page-3-content-1 h2 {
+    text-align: center;
+    color: rgb(135, 88, 0);
+    font-size: 1.3vw;
+}
+
+.page-3-content-1 h1 {
+    width: 40vw;
+    font-size: 3vw;
+    font-weight: 900;
+    text-align: center;
+}
+
+.page-3-content-2 {
+    width: 100%;
+    height: 78vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-3-content-2-1 {
+    width: 80%;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.page-3-labsa-1 {
+    width: 25vw;
+    height: 100%;
+    border-right: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-3-labsa-1 h1 {
+    width: 20vw;
+    border-top: 2px solid;
+    margin-top: 2vh;
+    font-size: 1.4vw;
+}
+
+.bg-labsa-1 {
+    background-color: rgba(128, 128, 128, 0.105);
+    width: 15vw;
+    height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 1s ease-in;
+}
+
+.labsa-para {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bg-labsa-1 p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -30vh;
+    transition: 1s ease-in;
+}
+.bg-labsa-1 a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -30vh;
+    text-decoration: none;
+    transition: 1.1s ease-in;
+}
+
+#labsa {
+    width: 17vw;
+    margin-left: -2vw;
+    transition: 1s ease-in;
+}
+#card:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    #labsa{
+        width: 10vw;
+        margin-left: -1.5vw;
+    }
+    p{
+        margin-bottom: 0;
+        color: white;
+        font-weight: 900;
+    }
+    a{
+        margin-bottom: 0;
+        color: rgb(255, 0, 0);
+        font-weight: 900; 
+        margin-top: 0.5vh;
+    }
+}
+
+#helmet {
+    width: 13vw;
+    margin-left: 1.5vw;
+    margin-top: 6vh;
+    transition: 1s ease-in;
+}
+#card-2:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    #helmet{
+        width: 10vw;
+    }
+    p{
+        margin-bottom: 0;
+        color: white;
+        font-weight: 900;
+    }
+    a{
+        margin-bottom: 0;
+        color: rgb(255, 0, 0);
+        font-weight: 900; 
+        margin-top: 0.5vh;
+    }
+}
+
+.bg-labsa-2 {
+    background-color: rgba(128, 128, 128, 0.105);
+    width: 15vw;
+    height: 36vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 1s ease-in;
+}
+.labsa-para-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bg-labsa-2 p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -30vh;
+    transition: 1s ease-in;
+}
+.bg-labsa-2 a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -30vh;
+    text-decoration: none;
+    transition: 1.1s ease-in;
+}
+.page-3-labsa-2 {
+    width: 25vw;
+    height: 100%;
+    border-right: 2px solid;
+}
+
+.page-3-labsa-2 h1 {
+    width: 20vw;
+    border-bottom: 2px solid;
+    padding-bottom: 4vh;
+    font-size: 1.4vw;
+}
+
+#boots {
+    width: 10vw;
+    margin-left: 1.5vw;
+    margin-top: 5vh;
+    transition: 1s ease-in;
+}
+#card-3:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    #boots{
+        width: 7vw;
+        margin-top: 1vh;
+    }
+    p{
+        margin-bottom: 0;
+        color: white;
+        font-weight: 900;
+    }
+    a{
+        margin-bottom: 0;
+        color: rgb(255, 0, 0);
+        font-weight: 900; 
+        margin-top: 0.5vh;
+    }
+}
+
+
+#rewayd {
+    width: 11vw;
+    margin-top: 7vh;
+    transition: 1s ease-in;
+}
+#card-3:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    #rewayd{
+        width: 7vw;
+        margin-top: 1vh;
+    }
+    p{
+        margin-bottom: 0;
+        color: white;
+        font-weight: 900;
+    }
+    a{
+        margin-bottom: 0;
+        color: rgb(255, 0, 0);
+        font-weight: 900; 
+        margin-top: 0.5vh;
+    }
 }
