@@ -1577,6 +1577,8 @@ footer{
         justify-content: center;
         align-items: end;
         overflow: visible;
+        margin-bottom: 3vh;
+        margin-top: 1vh;
     }
     
     .content-1-2 img {
@@ -1897,7 +1899,7 @@ footer{
         overflow: hidden;
         transition: 1s ease-in;
         border-radius: 20px;
-        box-shadow: 20px 20px 30px;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.658);
     }
     
     .labsa-para {
@@ -1955,7 +1957,7 @@ footer{
         overflow: hidden;
         transition: 1s ease-in;
         border-radius: 20px;
-        box-shadow: 20px 20px 30px;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.658);
     }
     
     .labsa-para-2 {
@@ -2163,6 +2165,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 2vh;
     }
     
     .div-2-2-titre h1 {
@@ -2374,6 +2377,7 @@ footer{
         color: white;
         font-size: 2.5vw;
         border: 5px solid rgb(163, 107, 50);
+        margin-top: 4vh;
     }
     .footer-icone h2{
         font-size: 5vw;
