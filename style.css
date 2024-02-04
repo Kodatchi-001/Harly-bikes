@@ -1240,15 +1240,17 @@ footer{
 @media (max-width:600px){
     header {
         width: 100%;
-        height: 100%;
+        height: 8vh;
         display: flex;
         justify-content: center;
         align-items: center;
         border-bottom: 0;
         margin-left: 0;
         margin-right: 0;
-        background-color: rgba(0, 0, 0, 0.842);
+        background-color: rgb(0, 0, 0);
         flex-wrap: wrap;
+        position: fixed;
+        z-index: 99999;
     }
     
     .navbar-1 {
@@ -1274,19 +1276,22 @@ footer{
     
     .navbar-2 {
         width: 100%;
-        height: 4vh;
+        height: 7vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-left: 0;
         margin-right: 0;
+        flex-wrap: wrap;
+        opacity: 0;
+        display: none;
     }
     
     .navbar-2 a {
         text-decoration: none;
         color: white;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     
     .navbar-3 {
@@ -1295,6 +1300,8 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        opacity: 0;
+        display: none;
     }
     
     .navbar-3 h1 {
@@ -1311,6 +1318,7 @@ footer{
     #home {
         width: 100%;
         height: 100%;
+        padding-top: 8vh;
     }
     
     .content-home {
@@ -1319,9 +1327,10 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 6vw;
+        font-size: 0;
+        opacity: 0;
+        display: none;
     }
-    
     .content-home-2 {
         width: 100%;
         height: 100%;
@@ -1394,13 +1403,13 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -30vh;
+        margin-top: -25vh;
     }
     
     .info-img img {
         width: 90vw;
         margin-top: 0;
-        animation: bike 5s;
+        animation: bike 5.5s;
     }
     
     @keyframes bike {
@@ -1478,13 +1487,13 @@ footer{
     }
     
     #find {
-        width: 45vw;
+        width: 35vw;
         height: 6vh;
         background-color: rgb(247, 211, 6);
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 5vw;
+        font-size: 3.5vw;
     
         .material-symbols-outlined {
             font-variation-settings:
@@ -1496,7 +1505,7 @@ footer{
     }
     
     #test {
-        width: 45vw;
+        width: 35vw;
         height: 6vh;
         background-color: rgb(244, 244, 244);
         display: flex;
@@ -1504,7 +1513,7 @@ footer{
         align-items: center;
         color: black;
         margin-left: 2vw;
-        font-size: 5vw;
+        font-size: 3.5vw;
     
         .material-symbols-outlined {
             font-variation-settings:
@@ -1784,6 +1793,8 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 20px;
+        opacity: 0;
+        display: none;
     }
     
     .icon span {
@@ -1791,21 +1802,21 @@ footer{
     }
     
     #icone-1 {
-        width: 50vw;
-        height: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 5vw;
-    }
-    
-    #icone-2 {
         width: 40vw;
         height: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 5vw;
+        font-size: 4vw;
+    }
+    
+    #icone-2 {
+        width: 35vw;
+        height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5vw;
         border: 3px solid;
     }
     #page-3 {
@@ -2121,7 +2132,7 @@ footer{
     }
     
     .content-page-4-1 h1 {
-        width: 70%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-right: auto;
@@ -2406,17 +2417,18 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
     .icone1{
-        width: 100%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 18px;
         text-align: center;
+        margin-top: 2vh;
         
     }
     .icone1 a{
